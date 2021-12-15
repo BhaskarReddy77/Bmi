@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(21, 230, 184);
+  padding: 20px;
+  border: 1px solid cadetblue;
+  border-radius: 50px;
+  height: 70vh;
+  width: 60%;
+  align-items: center;
+  margin: 50px auto;
+}
+body{
+  background-color: rgb(160, 76, 45);
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  outline: none;
+  background-color:whitesmoke;
+  border-radius: 5px ;
+}
+
+button {
+  width: 100%;
+  padding: 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background: rgb(56, 230, 13);
+  outline:none;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: lightsteelblue;
+}
